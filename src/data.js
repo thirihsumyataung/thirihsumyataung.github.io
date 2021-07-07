@@ -19,6 +19,10 @@ import Restaurant from "./images/restaurant.png";
 import Tour from "./images/tours.png"; 
 import Quiz from "./images/quiz.png"; 
 import Pagination from "./images/pagination.png"; 
+import ParaGen from "./images/para-generator.png"; 
+import GBud from "./images/gbud.png"; 
+import StockPhotos from "./images/stock-photos.png"; 
+import ShowModal from "./images/show-modal.png"; 
 export const socialMedias = [ 
     { 
         id: 1 , 
@@ -184,6 +188,34 @@ export const projects = [
         url: 'https://github-user-pagination-project-by-thirihsumyataung.netlify.app', 
         projectName: "Pagination", 
         description: "Pagination Component"
+    }, 
+    {
+        id: 19, 
+        img: ParaGen, 
+        url: 'https://paragraph-generator-by-thirihsumyataung.netlify.app', 
+        projectName: "Paragraph Generator", 
+        description: "Paragraph will print out as your input number."
+    }, 
+    {
+        id: 20, 
+        img: GBud, 
+        url: 'https://grocery-list-by-thirihsumyataung.netlify.app', 
+        projectName: "Grocery Bud", 
+        description: "Your input grocery list will be stored and you can edit and delete it anytime."
+    },
+    {
+        id: 21, 
+        img: StockPhotos, 
+        url: 'https://stock-photos-by-thirihsumyataung.netlify.app', 
+        projectName: "Stock Photos App", 
+        description: "Stock Photos page by using API"
+    },
+    {
+        id: 22, 
+        img: ShowModal, 
+        url: 'https://showmodal-page-by-thirihsumyataung.netlify.app', 
+        projectName: "ShowModal Page", 
+        description: "Practice for Show Modal Page"
     }
 ]; 
 

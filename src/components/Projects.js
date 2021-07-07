@@ -11,7 +11,7 @@ import "./project.css";
 
 //import { description } from 'commander';
 export default function Projects() {
-    return (<div className="card-body"> 
+    return (<div className="card-body" id="projects"> 
  <div className="card-container">
             { projects.map ((proj) => { 
                 const { id, url, projectName , description, img} = proj; 
@@ -35,17 +35,3 @@ export default function Projects() {
        
     )
 }
-{/* <CardGroup  key={id}  >
-  <Card className="card">
-    <Card.Img variant="top" src={img}  style={{ width: "200px"}} className="img"/>
-    <Card.Body>
-      <Card.Title>{projName}</Card.Title>
-      <Card.Text>
-        {description}
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-  </CardGroup> */}
