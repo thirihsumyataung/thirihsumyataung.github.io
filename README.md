@@ -15,3 +15,10 @@ Note :
 2. In public folder, create _redirects file and add /* /index.html 200
 
 
+- Badge
+```
+https://bit.dev/mui-org/material-ui/badge?example=5e985f61d7cc950019da628f
+
+```
+
+
