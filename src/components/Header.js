@@ -15,8 +15,19 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{float:"right"}}/>
   <Navbar.Collapse id="responsive-navbar-nav" pullRight >
     <Nav className="m4-auto">
-    <Nav.Link href="/contact">Contact</Nav.Link>
-    <Nav.Link href="/projects"> Projects</Nav.Link>
+    <Container> 
+                     <LinkContainer to="/contact"> 
+                        <Nav.Link>Contact</Nav.Link>
+                    </LinkContainer>
+                </Container> 
+
+                <Container> 
+                     <LinkContainer to="/projects"> 
+                        <Nav.Link>Projects</Nav.Link>
+                    </LinkContainer>
+                </Container> 
+    {/* <Nav.Link href="">Contact</Nav.Link>
+    <Nav.Link href=""> Projects</Nav.Link> */}
     {/* <Nav.Link href="/ecommence">Ecommence</Nav.Link>
     <Nav.Link href="/schoolprojects"> School Projects</Nav.Link> */}
       {/* <NavDropdown title="My Projects" id="basic-nav-dropdown" className="nav-bar">
