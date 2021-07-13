@@ -5,25 +5,26 @@ import { Container, Navbar, NavDropdown, Nav, Form, Button, FormControl } from "
 const Header = () => {
     return (
         <header> 
-            <Navbar bg="light" expand="lg" collapseOnSelect> 
-                <Container> 
-                    <LinkContainer to="/"> 
+            <Navbar collapseOnSelect bg="light" expand="xl"> 
+               <Container> 
+                     <LinkContainer to="/"> 
                         <Navbar.Brand>Thiri Hsu Myat Aung</Navbar.Brand>
                     </LinkContainer>
-                </Container>
-
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="ml-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#link">Link</Nav.Link>
-      <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                </Container> 
+              
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{float:"right"}}/>
+  <Navbar.Collapse id="responsive-navbar-nav" pullRight >
+    <Nav className="m4-auto">
+    <Nav.Link href="/contact">Contact</Nav.Link>
+    <Nav.Link href="/projects"> Projects</Nav.Link>
+    {/* <Nav.Link href="/ecommence">Ecommence</Nav.Link>
+    <Nav.Link href="/schoolprojects"> School Projects</Nav.Link> */}
+      {/* <NavDropdown title="My Projects" id="basic-nav-dropdown" className="nav-bar">
         <NavDropdown.Item href="/projects">Projects</NavDropdown.Item>
         <NavDropdown.Item href="/ecommerce">Ecommerce</NavDropdown.Item>
-        
         <NavDropdown.Divider />
         <NavDropdown.Item href="/SchoolProjects">School Projects</NavDropdown.Item>
-      </NavDropdown>
+      </NavDropdown> */}
     </Nav>
     
   </Navbar.Collapse>

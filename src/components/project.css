@@ -1,4 +1,7 @@
 .body { 
-background-color: #B2B8A3;
+background-color: #586831;
 }
 
+.card-body{ 
+    min-height: 80vh; 
+}

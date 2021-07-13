@@ -23,6 +23,13 @@ import ParaGen from "./images/para-generator.png";
 import GBud from "./images/gbud.png"; 
 import StockPhotos from "./images/stock-photos.png"; 
 import ShowModal from "./images/show-modal.png"; 
+import MouseDriver from "./images/mousedriver.png"; 
+import JhK from "./images/jhk.png"; 
+import NationalPark from './images/nationalpark.png'; 
+import WBTravel from "./images/wb-travel.png"; 
+import ExpDate from "./images/expire-date.png"; 
+import Shopaholic from "./images/shopaholic.png"; 
+import ComfySloth from "./images/comfy-sloth.png"; 
 export const socialMedias = [ 
     { 
         id: 1 , 
@@ -218,4 +225,86 @@ export const projects = [
         description: "Practice for Show Modal Page"
     }
 ]; 
+export const ecomProjects = [ 
+    { 
+        id: 1, 
+        url: " ",
+        img: ComfySloth,  
+        projName: "Comfy-Sloth Furnature Shop", 
+        description: "React-Frontend Ecommerce Website", 
+        status: "ongoing"
+    }, 
+    { 
+        id: 2, 
+        url: " ", 
+        img: Shopaholic, 
+        projName: "Shopaholic", 
+        description: "Full-stack Ecommerce Website", 
+        status: "ongoing"
+    }
+]; 
 
+export const mySchoolProjects = [ 
+    { 
+        id: 1 , 
+        url: "", 
+        img:  JhK , 
+        projectName:"Hospital Management System" , 
+        description: "Group project fro DBMS class: it is about hospital management system and using SQL database in Java.", 
+        courseName: "COSC-457(Database Management System)"
+    }, 
+    { 
+        id: 2 , 
+        url: "https://www.youtube.com/watch?v=jVpSSwXj-k4", 
+        img: MouseDriver, 
+        projectName:"Mouse Driver" , 
+        description: "Mouse Driver Project in C : Program will detect bluetooth mouse and will print x and y-axis of the mouse location.", 
+        courseName: "COSC-439(Operating System)"
+    }, 
+    { 
+        id: 3 , 
+        url: "https://github.com/algore7/COSC412Proj", 
+        img: NationalPark , 
+        projectName:"National Park" , 
+        description: "National Park Website: Group Project for Software Engineering Class", 
+        courseName: "COSC-412(Software Engineering Class)"
+    }, 
+    { 
+        id: 4 , 
+        url: "", 
+        img: WBTravel, 
+        projectName:"WB-Travel", 
+        description: "Group Project for web-based programming class", 
+        courseName: "COSC-484(Web-based programming)"
+    },
+    { 
+        id: 5 , 
+        url: "https://www.youtube.com/watch?v=MIH1ivNfDVI&t=6s", 
+        img: ExpDate, 
+        projectName:"Expiry Reminder App", 
+        description: "Group Project for Andriod class and this app will let you know which items will be expired soon. User can use camera to scan the product expire date or can add the data manually.", 
+        courseName: "COSC-435(Mobile Application Development)"
+    }, 
+]; 
+
+export const typeOfProjects = [
+    { 
+        id: 1 , 
+        projectType: "projects", 
+        url: "/projects"
+
+    }, 
+    { 
+        id: 2 , 
+        projectType: "mySchoolProjects", 
+        url: "/SchoolProjects"
+
+    }, 
+    { 
+        id: 3 , 
+        projectType: "ecommerce", 
+        url: "/ecommerce"
+
+    }
+]
+     

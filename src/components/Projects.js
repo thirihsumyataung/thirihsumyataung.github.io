@@ -12,6 +12,8 @@ import "./project.css";
 //import { description } from 'commander';
 export default function Projects() {
     return (<div className="card-body" id="projects"> 
+    <h1 className="myTitles">Projects</h1>
+    <p className="underline"></p>
  <div className="card-container">
             { projects.map ((proj) => { 
                 const { id, url, projectName , description, img} = proj; 

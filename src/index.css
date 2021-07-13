@@ -3,6 +3,8 @@
 
 
 .card { 
+  text-align: center;
+  justify-content: center; 
   width: 300px; 
   height: 100%; 
    margin: 0 auto;  
@@ -10,7 +12,8 @@
 
 }
 .card-body{ 
-  background-color: #687980;
+  /* background-color: #687980; */
+  min-height: 80vh;
 }
 .card-container { 
   display: grid;
@@ -33,17 +36,22 @@
     font-weight: 400;
   }
 .card > img:hover{  
-  /* border-radius: 10px; */
+  /* border-radius: 10px; */ 
   border-style: solid 1px;
   background-color:#47597E; 
 }
 
 .projURL:hover{  
  border-style: solid 1px;
-  background-color:#47597E; 
+background-color:#47597E; 
  
 }
    @media screen and (max-width: 600px){ 
+   .navbar-nav {
+     
+      float: right;  
+    }
+
      .card-container{ 
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -65,7 +73,14 @@
   
   }
      }
-   
+   main { 
+     min-height: 80vh;
+   }
+
+   .nav-bar{ 
+     margin-left: 20px;
+   }
+
 /* CSS Grid styles */
 
 /* display: grid; */
@@ -74,3 +89,83 @@
 gap: 10px;
 grid-auto-rows: 100px; */
 
+.underline { 
+  width: 5rem; 
+  height: 0.25rem; 
+  background: #c59d5f;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icons{ 
+  font-size:30px;
+  display: inline;
+  justify-content: center; 
+  /* padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 60px; */
+  margin-left:20px;
+  color: #47597E;
+  position: relative;
+}
+
+.myTitles { 
+  text-align: center;
+  color: #47597E;
+  font-size: 2rem; 
+  margin-left: auto;
+  margin-right: auto;
+}
+.item {
+  position:relative;
+  padding-top:20px;
+  display:inline-block;
+}
+.notify-badge{
+  position: absolute;
+  right: -20px;
+  top:10px;
+  background:red;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  color:white;
+  padding:5px 10px;
+  font-size:12px;
+}
+.ecommence{ 
+  text-align: center;
+  justify-content: center;  
+}
+
+.schoolprojects{ 
+  text-align: center;
+  justify-content: center; 
+}
+
+.tech-logos{ 
+  height: 30px;
+  margin: 5px;
+}
+
+.techs{ 
+  background-color: #efefef;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+/* nav .navbar-collapse {
+  position: fixed;
+  top: 56px;
+  background: #343a40;
+  right: -100%; 
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  transition: right 0.3s ease; 
+}
+
+nav .navbar-collapse.show {
+  right: 0;
+} */
