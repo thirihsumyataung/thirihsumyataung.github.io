@@ -20,5 +20,11 @@ Note :
 https://bit.dev/mui-org/material-ui/badge?example=5e985f61d7cc950019da628f
 
 ```
+- install the gh-pages as a dev-dependency of the app 
+
+```
+npm install gh-pages --save-dev
+
+```
 
 
