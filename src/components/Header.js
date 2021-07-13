@@ -16,6 +16,11 @@ const Header = () => {
   <Navbar.Collapse id="responsive-navbar-nav" pullRight >
     <Nav className="m4-auto">
     <Container> 
+                     <LinkContainer to="/about"> 
+                        <Nav.Link>About</Nav.Link>
+                    </LinkContainer>
+                </Container>
+    <Container> 
                      <LinkContainer to="/contact"> 
                         <Nav.Link>Contact</Nav.Link>
                     </LinkContainer>

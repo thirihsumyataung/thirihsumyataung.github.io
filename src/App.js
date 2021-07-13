@@ -20,7 +20,9 @@ function App() {
          <Container> 
          <Route path= "/" component={Intro} exact/>
          {/* <Route path="/projects" component={Projects}/>  */}
+         <Route path="/about" component={Intro}/> 
          <Route path="/contact" component={Contact}/> 
+
          {/* <Route path="/SchoolProjects" component ={SchoolProjects}/> 
          <Route path="/ShowingProjects" component={ShowingProject}/> 
          <Route path="/ecommence" component={Ecommence}/>  */}

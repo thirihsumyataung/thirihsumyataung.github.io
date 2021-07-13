@@ -20,15 +20,21 @@ export default function Intro() {
             <p> "I always consider myself as a forever student and eager to both build on my academic foundations and learn in coding.
                I'm currently working on React Frontend projects and keep updating on my portfolio website." 
             </p>
-            <p> 
-               Experience: 
+            
+               <strong>Experience: </strong> 
+                
                Worked as Grader for Assembly Language Programming COMP - 2030 at University of Massachusetts Lowell
+            <p> 
+               <br></br>
             </p>
-           <h6>Education: </h6>
-           <ul> 
+            <h6><strong>Education:  </strong></h6>
+           
              <li>Bachelor of Computer Science at Towson Unversity </li>
              <li>Bachelor of Electrical Engineering at WYTU</li>
-           </ul> 
+           
+
+         
+          
                More about me: 
             { socialMedias.map ((socials)=> {
                const { id, url, icon} = socials; 
