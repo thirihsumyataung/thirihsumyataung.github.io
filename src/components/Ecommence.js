@@ -5,7 +5,7 @@ const Ecommence = () => {
     const {projName, id, url, description, img, status}  = ecomProjects; 
     
        return ( <> 
-         <h1 className="myTitles"> Ecommence </h1>
+         <h1 className="myTitles"> E-commerce </h1>
     <p className="underline"></p>
        <Row id="schoolprojects" className="ecommence"> 
            { ecomProjects.map( (proj) => { 
