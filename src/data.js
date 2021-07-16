@@ -228,7 +228,7 @@ export const projects = [
 export const ecomProjects = [ 
     { 
         id: 1, 
-        url: " ",
+        url: "https://github.com/thirihsumyataung/Comfy-Sloth-Ecommerce-Website",
         img: ComfySloth,  
         projName: "Comfy-Sloth Furnature Shop", 
         description: "React-Frontend Ecommerce Website", 
@@ -236,7 +236,7 @@ export const ecomProjects = [
     }, 
     { 
         id: 2, 
-        url: " ", 
+        url: "https://github.com/thirihsumyataung/Ecommerce-ShoppingWebsite", 
         img: Shopaholic, 
         projName: "Shopaholic", 
         description: "Full-stack Ecommerce Website", 
@@ -247,7 +247,7 @@ export const ecomProjects = [
 export const mySchoolProjects = [ 
     { 
         id: 1 , 
-        url: "", 
+        url: "https://github.com/thirihsumyataung/Hospital-Management-System-COSC457", 
         img:  JhK , 
         projectName:"Hospital Management System" , 
         description: "Group project fro DBMS class: it is about hospital management system and using SQL database in Java.", 
@@ -271,7 +271,7 @@ export const mySchoolProjects = [
     }, 
     { 
         id: 4 , 
-        url: "", 
+        url: "https://github.com/gstephens1995/wb-travel", 
         img: WBTravel, 
         projectName:"WB-Travel", 
         description: "Group Project for web-based programming class", 
@@ -308,3 +308,14 @@ export const typeOfProjects = [
     }
 ]
      
+export const locations = [
+    { 
+        id: 1, 
+        locationName: "Home", 
+        address: "2 Hermosa Place, Gaithersburg, Maryland, MD 20877", 
+        lat: " ", 
+        long: " ", 
+
+    }
+]
+    
