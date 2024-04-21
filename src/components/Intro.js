@@ -21,20 +21,21 @@ export default function Intro() {
                I'm currently working on React Frontend projects and keep updating on my portfolio website." 
             </p>
             
-               <strong>Experience: </strong> 
-                
-               Worked as Grader for Assembly Language Programming COMP - 2030 at University of Massachusetts Lowell
+               <strong>Experience: </strong><br></br>
+               <li>Software Engineer at Tata Consultancy Services</li>
+               <li>Teaching Assistant / Grader for Assembly Language Programming COMP - 2030 at University of Massachusetts Lowell</li>
             <p> 
                <br></br>
             </p>
             <h6><strong>Education:  </strong></h6>
            
-             <li>Bachelor of Computer Science at Towson Unversity </li>
-             <li>Bachelor of Electrical Engineering at WYTU</li>
-           
+               <li>Bachelor of Computer Science at Towson Unversity </li>
+               <li>Bachelor of Electrical Engineering at WYTU</li>
+               <br></br>
+            <h6><strong>License and Certifications: </strong></h6>
+               <a href="https://www.credly.com/earner/earned/badge/dfcb5603-dfe9-4a5e-ba13-c8e1630434a0">AWS Certified Cloud Practitioner (CLF-C02)</a>[ Click the link to verify ]
 
-         
-          
+            <br></br>
                More about me: 
             { socialMedias.map ((socials)=> {
                const { id, url, icon} = socials; 
