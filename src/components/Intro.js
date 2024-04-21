@@ -12,11 +12,11 @@ export default function Intro() {
        <> 
        <Row> 
           <Col md={6}> 
-         <Image src={myImage} alt="Thiri Hsu Myat Aung" style={{marginRight: "20px" }}/> 
+         <Image fluid src={myImage} alt="Thiri Hsu Myat Aung" style={{width: "100%"}}/> 
           </Col>
           <Col md={8} sm={12} lg={4} xl={6} xs={12} style={{marginTop:"12px"}}>  
              
-            <h5 >Hello , I'm Thiri.</h5>
+            <h6>Hello , I'm Thiri.</h6>
             <p> "I always consider myself as a forever student and eager to both build on my academic foundations and learn in coding.
                I'm currently working on React Frontend projects and keep updating on my portfolio website." 
             </p>
