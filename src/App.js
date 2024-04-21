@@ -19,9 +19,9 @@ function App() {
         <main className="py-3"> 
          <Container> 
          <Route path= "/" component={Intro} exact/>
-         <Route path="/about" component={Intro} exact/> 
-         <Route path="/contact" component={Contact} exact/> 
-         <Route path="/projects" component={ProjectHolder} exact/>
+         <Route path="/about" component={Intro}/> 
+         <Route path="/contact" component={Contact}/> 
+         <Route path="/projects" component={ProjectHolder}/>
         </Container>
         </main>
     </Router>
