@@ -2,7 +2,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Row, Col, Card, Form, ListGroupItem, Image, ListGroup } from "react-bootstrap"; 
 import { socialMedias } from '../data';  
-//import "./intro.css"; 
+import "./intro.css"; 
 //import Contact from "Contact"
 import Contact from './Contact';
 const myImage = "https://avatars.githubusercontent.com/u/61168937?v=4"; 
