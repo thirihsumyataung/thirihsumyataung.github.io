@@ -14,7 +14,7 @@ import ProjectHolder from './components/ProjectHolder';
 function App() {
   return (
     <div> 
-      <Router> 
+      <Router basename='/'> 
         <Header/>
         <main className="py-3"> 
          <Container> 
