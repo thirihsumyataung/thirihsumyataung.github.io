@@ -22,6 +22,7 @@ function App() {
          <Route path="/about" component={Intro}/> 
          <Route path="/contact" component={Contact}/> 
          <Route path="/projects" component={ProjectHolder}/>
+
         </Container>
         </main>
     </Router>
