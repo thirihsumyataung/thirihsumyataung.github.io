@@ -33,7 +33,7 @@ export default function Intro() {
                <li>Bachelor of Electrical Engineering at WYTU</li>
                <br></br>
             <h6><strong>License and Certifications: </strong></h6>
-               <a href="https://www.credly.com/earner/earned/badge/dfcb5603-dfe9-4a5e-ba13-c8e1630434a0">AWS Certified Cloud Practitioner (CLF-C02)</a>[ Click the link to verify ]
+               <a href="https://www.credly.com/badges/3f1ac9a2-0f18-4b96-8ca8-44455dec1343/public_url">AWS Certified Developer - Associate (DVA-C02)</a>[ Click the link to verify ]
 
             <br></br>
                More about me: 
